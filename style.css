@@ -63,7 +63,6 @@ form input[type="submit"] {
 }
 .box {
     margin-left: 15px;
-    width: 100%;
     margin-bottom:20px;
 }
 .box:first-of-type {
@@ -72,6 +71,7 @@ form input[type="submit"] {
 .box input {
     letter-spacing: 1.1px;
     font-family: 'Montserrat', sans-serif; ;
+    height: 100%;
     float: right;
     margin-right: 130px;
     width: 300px;
