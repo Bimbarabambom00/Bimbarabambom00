@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: #dfe1ed;
+}
+section {
+    box-shadow:
+    1.5px 2.5px 3.6px rgba(0, 0, 0, 0.129),
+    4.1px 6.9px 10px rgba(0, 0, 0, 0.138),
+    9.9px 16.6px 24.1px rgba(0, 0, 0, 0.123),
+    33px 55px 80px rgba(0, 0, 0, 0.1);
+  
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form {
+    padding: 20px;
+}
+.btn {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    margin: 24px;
+    width: 100px;
+    height: 32px;
+    font-size: 11px;
+    justify-content: center;
+    letter-spacing: 1.2px;
+}
+section input[type="button"] {
+    left: 10px;
+    border: 1px solid rgb(121, 121, 121);
+    background: none;
+}
+form input[type="submit"] {
+    left: 643px; 
+    border: none;
+    background: #28d466;
+    color: white;
+}
+#left {
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+#right {
+    width: 20%;
+    height: 100%;
+    background: #313a73;
+}
+#right p:first-of-type {
+    margin-top: 35px;
+}
+#right p {
+    font-size: 13px;
+    color: rgb(212, 212, 212);
+    text-align: center;
+}
+.box {
+    margin-left: 15px;
+    width: 100%;
+    margin-bottom:20px;
+}
+.box:first-of-type {
+    margin-top: 50px;
+}
+.box input {
+    letter-spacing: 1.1px;
+    font-family: 'Montserrat', sans-serif; ;
+    height: 100%;
+    float: right;
+    margin-right: 130px;
+    width: 300px;
+    border: 1px solid black;
+}
+.box input:focus {
+    border: 1px solid black;
+}
+#left p {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(7, 7, 24);
+    margin-top: 30px;
+    width: 100%; 
+    text-align: center;
+}
+#firstHR {
+    border: none;
+    background: #313a73;
+    height: 2px;
+    width: 244px;
+}
+.secondHR {
+    border: 1px solid grey;
+    width: 95%;
+}
+section input[type="button"]:hover {
+    background:rgb(233, 233, 233);
+}
+form input[type="submit"]:hover {
+    background: #22b959;
+}
+::placeholder {
+    color:rgb(177, 177, 177);
+    font-size: 11px;
+}
